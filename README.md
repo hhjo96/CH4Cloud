@@ -29,5 +29,19 @@
 ![img_8.png](img_8.png)
 ![img_9.png](img_9.png)
 
-- 서버 IP 3.39.222.191
+### 요구사항
+서버 IP 3.39.222.191
+
+## LV2 db분리 및 보안
+
+- 스프링 실행
+![img_12.png](img_12.png)
+
+### 요구사항
+- 보안 그룹 설정
+![img_10.png](img_10.png)
+
+- 엔드포인트 url: http://3.39.222.191:8080/actuator/info
+![img_11.png](img_11.png)
+
 
