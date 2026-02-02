@@ -45,3 +45,21 @@
 ![img_11.png](img_11.png)
 
 
+## LV3 S3
+- 퍼블릭 엑세스 차단
+![img_13.png](img_13.png)
+
+- 로컬 파일 업로드, 다운로드 확인
+![img_14.png](img_14.png)
+![img_15.png](img_15.png)
+
+- 서버 파일 업로드, 다운로드 확인
+![img_16.png](img_16.png)
+![img_17.png](img_17.png)
+
+- 버켓 확인
+![img_18.png](img_18.png)
+
+### 요구사항
+url: 
+만료: 
