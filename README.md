@@ -14,3 +14,20 @@
 
 - 애플리케이션 개발
 ![img_4.png](img_4.png)
+
+- 운영 설정(local, prod 분리)
+
+- 로그 전략
+![img_5.png](img_5.png)
+
+
+- actuator 추가
+![img_6.png](img_6.png)
+
+- 서버 실행
+![img_7.png](img_7.png)
+![img_8.png](img_8.png)
+![img_9.png](img_9.png)
+
+- 서버 IP 3.39.222.191
+
