@@ -1,0 +1,20 @@
+spring:
+  config:
+    import: aws-parameterstore:/ch4-cloud-app/prod/
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: ${db_url}
+    username: ${db_username}
+    password: ${db_password}
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+
+info:
+  app:
+    message: ${team-name}
