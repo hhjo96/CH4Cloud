@@ -61,5 +61,15 @@
 ![img_18.png](img_18.png)
 
 ### 요구사항
-url: 
-만료: 
+url: 제출칸에 첨부
+만료: 2월 10일 오전 10시 5분
+
+
+## Lv4 도커&CICD
+- 도커 pull 완료
+![img_19.png](img_19.png)
+
+### 요구사항
+![img_20.png](img_20.png)
+
+![img_21.png](img_21.png)
