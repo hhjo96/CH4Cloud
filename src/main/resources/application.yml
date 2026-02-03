@@ -1,0 +1,42 @@
+spring:
+  application:
+    name: CH4Cloud
+
+  profiles:
+    active: local
+
+  cloud:
+    aws:
+      region:
+        static: ap-northeast-2
+      s3:
+        bucket: camp-ch4cloud-imhhjo-files
+
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 10MB
+
+server:
+  port: 8080
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, info
+  endpoint:
+    health:
+      show-details: never
+  info:
+    env:
+      enabled: true
+
+info:
+  app:
+    name: ch4-cloud-app
+    version: 1.0.0
+
+logging:
+  level:
+    root: INFO
